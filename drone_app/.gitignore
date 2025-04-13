@@ -1,0 +1,23 @@
+# Zephyr SDK and modules (west)
+/zephyr/
+/modules/
+/bootloader/
+/tools/
+/build/
+/.west/
+west.yml
+west.lock
+
+# Files of build
+/build/
+/CMakeFiles/
+/cmake_install.cmake
+/Makefile
+
+# IDE
+*.swp
+*.swo
+*.pyc
+__pycache__/
+.vscode/
+
