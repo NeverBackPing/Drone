@@ -4,4 +4,8 @@ find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
 
 project(drone)
 
+add_subdirectory(includes)
+
 target_sources(app PRIVATE src/main.c)
+
+target_link_libraries(app PRIVATE drone_headers)
