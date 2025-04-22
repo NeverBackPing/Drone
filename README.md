@@ -1,6 +1,6 @@
 # Drone
 Building a drone with two Raspberry Pico 2.
-![pico2](https://github.com/user-attachments/assets/8d42a7fc-99b9-4547-b4c9-9317c40d22b8)
+![pico2](https://github.com/user-attachments/assets/bfc15cf9-2c39-4933-b26f-f05199379400)
 
 ## Work environment
 We need to install and create a Python environment 
