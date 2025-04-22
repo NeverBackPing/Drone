@@ -4,3 +4,11 @@ Building a drone with two Raspberry Pico 2.
 ## Work environment
 We need to install and create a Python environment 
 so as not to "pollute" our Linux environment.
+
+```
+$ sudo  apt install  -y  python3-venv
+
+$ python3 -m venv  .venv
+
+$ source .venv/bin/activate
+```
