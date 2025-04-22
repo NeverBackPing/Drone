@@ -15,7 +15,7 @@ $ python3 -m venv  .venv
 $ source .venv/bin/activate
 ```
 ```
-(.venv)$
+(.venv)$ // you are in the python environment now
 ```
 ## Build tool
 West is the meta tool used by Zephyr to group together a multitude of commands and tools
