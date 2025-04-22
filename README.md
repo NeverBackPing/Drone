@@ -21,5 +21,10 @@ West is the meta tool used by Zephyr to group together a multitude of commands a
 ```
 (.venv)$ pip  install  west
 ````
+## Zephyr SDK
+
+```
+git clone https://github.com/zephyrproject-rtos/zephyr.git
+```
 
 
