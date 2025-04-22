@@ -17,3 +17,10 @@ $ source .venv/bin/activate
 ```
 (.venv)$
 ```
+## Build tool
+West is the meta tool used by Zephyr to group together a multitude of commands and tools
+```
+(.venv)$ pip  install  west
+````
+
+
