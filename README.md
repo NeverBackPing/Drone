@@ -7,7 +7,13 @@ so as not to "pollute" our Linux environment.
 
 ```
 $ sudo  apt install  -y  python3-venv
+```
+```
 $ python3 -m venv  .venv
+```
+```
 $ source .venv/bin/activate
+```
+```
 (.venv)$
 ```
