@@ -1,5 +1,5 @@
 # Drone
-Building a drone with two Raspberry Pico 2 with Zephyr RTOS.
+Building a drone with two Raspberry Pico 2 Zephyr RTOS.
 
 ## Work environment
 We need to install and create a Python environment 
