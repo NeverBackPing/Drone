@@ -24,6 +24,7 @@ West is the meta tool used by Zephyr to group together a multitude of commands a
 ```
 west init
 ```
+```
 west update
 ```
 
