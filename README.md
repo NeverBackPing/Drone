@@ -20,7 +20,12 @@ $ source .venv/bin/activate
 West is the meta tool used by Zephyr to group together a multitude of commands and tools
 ```
 (.venv)$ pip  install  west
-````
+```
+```
+west init
+```
+west update
+```
 ## Zephyr SDK
 
 ```
