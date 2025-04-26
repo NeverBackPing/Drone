@@ -26,10 +26,5 @@ west init
 ```
 west update
 ```
-## Zephyr SDK
-
-```
-git clone https://github.com/zephyrproject-rtos/zephyr.git
-```
 
 
