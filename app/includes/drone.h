@@ -14,7 +14,6 @@
 #include <zephyr/logging/log.h>
 #include <zephyr/drivers/rtc.h>
 #include <zephyr/sys/util.h>
-#include "mpu6050.h"
 
 
 # endif

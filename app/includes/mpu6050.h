@@ -8,7 +8,18 @@
 #ifndef	MPU6050_H
 # define MPU6050_H
 
+#include <zephyr/kernel.h>
+#include <zephyr/device.h>
+#include <zephyr/drivers/sensor.h>
+#include <zephyr/logging/log.h>
+#include <zephyr/drivers/rtc.h>
+#include <zephyr/sys/util.h>
 
+#define STACK_SIZE 2048
+#define MPU6050_PRIORITY 1
 
+void	gyroscope(void);
+
+K_THREAD_DEFINE(mpu6050_id, STACK_SIZE, gyroscope, NULL, NULL, NULL, MPU6050_PRIORITY, 0, 0);
 
 #endif
