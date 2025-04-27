@@ -27,5 +27,9 @@ west init
 ```
 west update
 ```
+## For flash
+```
+west build -p always -b rpi_pico2/rp2350a/m33 app
+```
 
 
