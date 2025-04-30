@@ -7,6 +7,8 @@
 
 #include "../../includes/mpu6050.h"
 
+K_THREAD_DEFINE(mpu6050_id, STACK_SIZE, gyroscope, NULL, NULL, NULL, MPU6050_PRIORITY, 0, 0);
+
 void	gyroscope(void)
 {
 	const struct device *const mpu6050 = DEVICE_DT_GET_ONE(invensense_mpu6050);
