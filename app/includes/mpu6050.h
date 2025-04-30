@@ -20,6 +20,4 @@
 
 void	gyroscope(void);
 
-K_THREAD_DEFINE(mpu6050_id, STACK_SIZE, gyroscope, NULL, NULL, NULL, MPU6050_PRIORITY, 0, 0);
-
 #endif
