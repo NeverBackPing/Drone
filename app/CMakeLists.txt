@@ -6,6 +6,6 @@ project(drone)
 
 add_subdirectory(includes)
 
-target_sources(app PRIVATE src/main.c)
+target_sources(app PRIVATE src/main.c src/mpu6050/mpu6050.c)
 
 target_link_libraries(app PRIVATE drone_headers)

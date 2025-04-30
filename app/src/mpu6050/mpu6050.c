@@ -20,7 +20,7 @@ void	gyroscope(void)
 		while (1)
 		{
 			printf("ERROR: MPU6050 not ready\n");
-			k_msleep(5);
+			k_msleep(500);
 		}
 	}
 
@@ -41,11 +41,11 @@ void	gyroscope(void)
 				sensor_value_to_double(&gyro[0]),
 				sensor_value_to_double(&gyro[1]),
 				sensor_value_to_double(&gyro[2]));
-		k_msleep(5);
+		k_msleep(500);
 	}
 	while (1)
 	{
 		printf("Error: FATAL can't read again\n");
-		k_msleep(5);
+		k_msleep(500);
 	}
 }
