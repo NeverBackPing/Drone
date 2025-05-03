@@ -24,7 +24,6 @@ void	gyroscope(void)
 		}
 	}
 
-	printf("START: While for read MPU6050\n");
 	while (1)
 	{
 		sensor_sample_fetch(mpu6050);
@@ -41,7 +40,7 @@ void	gyroscope(void)
 				sensor_value_to_double(&gyro[0]),
 				sensor_value_to_double(&gyro[1]),
 				sensor_value_to_double(&gyro[2]));
-		k_msleep(500);
+		k_msleep(9);
 	}
 	while (1)
 	{
