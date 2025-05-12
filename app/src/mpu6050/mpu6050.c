@@ -40,7 +40,7 @@ void	gyroscope(void)
 				sensor_value_to_double(&gyro[0]),
 				sensor_value_to_double(&gyro[1]),
 				sensor_value_to_double(&gyro[2]));
-		k_msleep(9);
+		k_msleep(3);
 	}
 	while (1)
 	{
