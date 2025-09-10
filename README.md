@@ -5,13 +5,13 @@ Building a drone with two Raspberry Pico 2 Zephyr RTOS.
 We need to install and create a Python environment 
 so as not to "pollute" our Linux environment.
 ```
-$ sudo  apt install  -y  python3-venv
+sudo  apt install  -y  python3-venv
 ```
 ```
-$ python3 -m venv  .venv
+python3 -m venv  .venv
 ```
 ```
-$ source .venv/bin/activate
+source .venv/bin/activate
 ```
 ```
 (.venv)$ // you are in the python environment now
@@ -19,7 +19,7 @@ $ source .venv/bin/activate
 ## Build tool
 West is the meta tool used by Zephyr to group together a multitude of commands and tools
 ```
-(.venv)$ pip  install  west
+pip  install  west
 ```
 ```
 west init
